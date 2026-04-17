@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+._*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Figures generated during experiments
+figures/*
+!figures/.gitkeep
+
+# Common large ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.gif
+
+# Ignore ALL model + data contents
+models/*
+!models/.gitkeep
+
+data/*
+!data/.gitkeep
+
+animatediff/
