@@ -48,3 +48,12 @@ figures/*
 *.avi
 *.mkv
 *.gif
+
+# Ignore ALL model + data contents
+models/*
+!models/.gitkeep
+
+data/*
+!data/.gitkeep
+
+animatediff/
